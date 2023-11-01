@@ -9,7 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Olá mundo")
+        VStack(alignment: .center, spacing: 4.0) {
+            Group {
+                Text("Lucas")
+                Text("Neves")
+                Text("Desenvolvedor iOS")
+            }
+            .font(.title3)
+            .fontWeight(.bold)
+            .foregroundColor(Color.green);
+        }
+        
     }
 }
 
